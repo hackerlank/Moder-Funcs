@@ -1,0 +1,20 @@
+﻿Сборка начата 06.07.2015 11:13:49.
+     1>Проект "C:\Users\DarkKnight\Desktop\Moder Plugin\SFPlugin\SFPlugin.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Visual Studio\VC\bin\CL.exe /c /ISFAPI /Igame_api\sdk /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Os /Oy /D _CRT_SECURE_NO_WARNINGS /D _USE_MATH_DEFINES /D _WINDOWS /D _USRDLL /D WIN32 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS- /fp:fast /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(146): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>main.cpp(154): warning C4018: <: несоответствие типов со знаком и без знака
+     1>main.cpp(158): warning C4244: аргумент: преобразование "DWORD" в "float", возможна потеря данных
+     1>main.cpp(162): warning C4101: y: неиспользованная локальная переменная
+     1>main.cpp(162): warning C4101: x: неиспользованная локальная переменная
+       Link:
+         C:\Program Files (x86)\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Games\GTA SA1\SAMPFUNCS\Moder Plugin.sf" /INCREMENTAL:NO /NOLOGO /MANIFEST:NO /PDB:"D:\Games\GTA SA1\SAMPFUNCS\Moder Plugin.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT:NO /IMPLIB:"D:\Games\GTA SA1\SAMPFUNCS\Moder Plugin.lib" /MACHINE:X86 /SAFESEH /DLL Release\main.obj
+         SFAPI\SAMPFUNCS.lib
+         SFPlugin.vcxproj -> D:\Games\GTA SA1\SAMPFUNCS\Moder Plugin.sf
+     1>Сборка проекта "C:\Users\DarkKnight\Desktop\Moder Plugin\SFPlugin\SFPlugin.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.54
